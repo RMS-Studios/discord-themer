@@ -128,7 +128,7 @@ function getAllPlugins() {
       if (descM && !meta.description) meta.description = descM[1].trim();
       meta.id       = id;
       meta.enabled  = !!(state.plugins && state.plugins[id]);
-      // Only load plain .js files — skip .ts, .tsx (Vencord source, needs compilation)
+      // Only load plain .js files — skip .ts, .tsx (discord-themer source, needs compilation)
       meta.jsFiles  = [ix].concat(fs.readdirSync(dir).filter(function(f){
         return f.endsWith(".js") && f !== "index.js" && !f.endsWith(".ts");
       }).map(function(f){ return path.join(dir,f); }));
@@ -600,10 +600,10 @@ function buildScript() {
     } else {
       _plugins.forEach(function(p) {
         var tsBadge = p.isTS
-          ? '<span style="font-size:10px;font-weight:700;background:#ed4245;color:#fff;padding:1px 6px;border-radius:3px;margin-left:6px;vertical-align:middle">Vencord only</span>'
+          ? '<span style="font-size:10px;font-weight:700;background:#ed4245;color:#fff;padding:1px 6px;border-radius:3px;margin-left:6px;vertical-align:middle">discord-themer only</span>'
           : '';
         var tsNote = p.isTS
-          ? '<div class="dt-card-meta" style="color:#faa61a;margin-top:4px">⚠ TypeScript/Vencord plugin — needs Vencord to run. Cannot be loaded as plain JS.</div>'
+          ? '<div class="dt-card-meta" style="color:#faa61a;margin-top:4px">⚠ TypeScript/discord-themer plugin — needs discord-themer to run. Cannot be loaded as plain JS.</div>'
           : '';
         html += '<div class="dt-card dt-plugin-card" data-name="' + p.name.toLowerCase() + '">'
           + '<div class="dt-card-inner">'
