@@ -1,0 +1,10 @@
+{
+  "id": "nordic",
+  "name": "Nordic Frost",
+  "version": "1.0.0",
+  "author": "DiscordThemer",
+  "description": "A clean Nordic-inspired theme with cool blues and minimal UI.",
+  "css_file": "theme.css",
+  "tags": ["light", "nordic", "clean"],
+  "active": false
+}

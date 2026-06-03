@@ -1,0 +1,30 @@
+{
+  "build": {
+    "beforeDevCommand": "pnpm dev",
+    "beforeBuildCommand": "pnpm build",
+    "devPath": "http://localhost:5173",
+    "distDir": "../dist"
+  },
+  "tauri": {
+    "allowlist": {
+      "all": false,
+      "fs": { "all": true, "scope": ["$APPDATA/**", "$LOCALAPPDATA/**"] },
+      "dialog": { "all": true },
+      "notification": { "all": true },
+      "shell": { "open": true }
+    },
+    "bundle": {
+      "active": true,
+      "identifier": "com.discordthemer.app",
+      "icon": ["icons/icon.png"]
+    },
+    "security": { "csp": null },
+    "windows": [{
+      "title": "Discord Themer",
+      "width": 1100,
+      "height": 720,
+      "resizable": true,
+      "fullscreen": false
+    }]
+  }
+}

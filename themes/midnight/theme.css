@@ -1,0 +1,17 @@
+/* Midnight Reborn - Discord Theme */
+:root {
+  --background-primary: #1a1b2e;
+  --background-secondary: #16213e;
+  --background-tertiary: #0d0d1a;
+  --background-accent: #533483;
+  --header-primary: #e2e8f0;
+  --header-secondary: #a0aec0;
+  --text-normal: #cbd5e0;
+  --text-muted: #718096;
+  --text-link: #7c5cbf;
+  --brand-experiment: #7c5cbf;
+  --interactive-normal: #a0aec0;
+  --interactive-hover: #e2e8f0;
+}
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-thumb { background: #533483; border-radius: 3px; }

@@ -1,0 +1,30 @@
+{
+  "version": "1.0",
+  "updated": "2025-04-05",
+  "themes": [
+    {
+      "id": "midnight",
+      "name": "Midnight Reborn",
+      "author": "DiscordThemer",
+      "description": "A deep navy Discord theme with subtle purple accents.",
+      "tags": ["dark", "navy", "minimal"],
+      "rating": 4.8,
+      "downloads": 12400,
+      "manifest_url": "https://raw.githubusercontent.com/your-org/discord-themer-registry/main/themes/midnight/theme.json",
+      "preview_url": null,
+      "verified": true
+    },
+    {
+      "id": "nordic",
+      "name": "Nordic Frost",
+      "author": "DiscordThemer",
+      "description": "A clean Nordic-inspired theme with cool blues.",
+      "tags": ["dark", "nordic", "clean"],
+      "rating": 4.5,
+      "downloads": 8200,
+      "manifest_url": "https://raw.githubusercontent.com/your-org/discord-themer-registry/main/themes/nordic/theme.json",
+      "preview_url": null,
+      "verified": true
+    }
+  ]
+}

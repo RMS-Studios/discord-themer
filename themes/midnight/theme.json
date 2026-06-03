@@ -1,0 +1,10 @@
+{
+  "id": "midnight",
+  "name": "Midnight Reborn",
+  "version": "1.0.0",
+  "author": "DiscordThemer",
+  "description": "A deep navy Discord theme with subtle purple accents and clean typography.",
+  "css_file": "theme.css",
+  "tags": ["dark", "navy", "minimal"],
+  "active": false
+}
